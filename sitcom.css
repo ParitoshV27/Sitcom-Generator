@@ -1,0 +1,55 @@
+html{
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 202, 125);
+
+}
+body{
+    display: flex;
+    
+}
+
+
+.container{
+        display: flexbox;
+    margin: auto;
+    
+
+    background-color: aqua;
+    padding: 30px;
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    width: 250px;
+    min-height: 200px;
+    align-self: center;
+    
+}
+
+.question{
+    align-items: center;
+}
+
+.answer{
+    margin:5px;
+    height: 45px;
+    width: 250px;
+    align-self: center;
+    background-color: rgb(241, 75, 75);
+
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    width: 100px;
+    
+    height: 25px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgb(1, 184, 1);
+}
